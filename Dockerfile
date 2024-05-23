@@ -8,8 +8,8 @@ RUN npm install
 
 COPY . .
 
-ENV PORT=3000
+EXPOSE 3000
 
 ENV MODEL_URL=https://storage.googleapis.com/submissionmlgc-yudhaananda/submissions-model/model.json
 
-CMD ["node", "start"]
+CMD ["npm", "start"]
