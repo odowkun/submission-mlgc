@@ -10,6 +10,6 @@ COPY . .
 
 EXPOSE 3000
 
-ENV MODEL_URL=https://storage.googleapis.com/submissionmlgc-yudhaananda/submissions-model/model.json
+ENV MODEL_URL=https://storage.googleapis.com/submissionmlgc-abdullahazzam/submissions-model/model.json
 
 CMD ["npm", "start"]
